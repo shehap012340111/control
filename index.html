@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="./img/logo.png">
+    <link href="./css/dataTable.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+<body class="asasassasa">
+<!-- navbar -->
+<!-- navbar -->
+<div class="navbar">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+      <div class="nav-logo">
+      <a  href="./index.html"><img src="./img/logo.png" alt=""></a>
+  </div>
+  </div>
+  <div class="nav-btn">
+      <label for="nav-check">
+          <span class="span_1"></span>
+          <span class="span_2"></span>
+          <span class="span_3"></span>
+      </label>
+  </div>
+  
+  <div class="nav-links">
+      <a href="./home.html"> الرئيسيه </a>
+      <a href="./Login.html">تسجيل دخول</a>
+      <a href="./">تواصل معنا</a>
+  </div>
+  </div>
+  
+
+<div class="open_all_catt" onclick="Show_all_catt()">
+  <i class="fa-solid fa-bars"></i>
+</div>
+
+
+<ul class="nav nav-pills mb-3  all_catt" id="pills-tab" role="tablist">
+    <li onclick="Show_all_sup_catt() " class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#facebook" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <span>facebook</span>  <img src="./img/facebook.png" alt=""></button>
+    </li>
+    <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#twiter" type="button" role="tab" aria-controls="twiter" aria-selected="false"><span>twiter</span>   <img src="./img/twitter.png" alt=""></button>
+    </li>
+    <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#youTube" type="button" role="tab" aria-controls="youTube" aria-selected="false"><span>youTube</span>   <img src="./img/youtube.png" alt=""></button>
+    </li>
+
+    <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#insta" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>instagram</span>   <img src="./img/instagram.png" alt=""></button>
+      </li>
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tiktok" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>tiktok</span>   <img src="./img/tiktok.png" alt=""></button>
+      </li>      
+
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Telegram" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> Telegram </span>   <img src="./img/telegram.png" alt=""></button>
+      </li>    
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> WhatsApp </span>   <img src="./img/whatsapp.png" alt=""></button>
+      </li>    
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Google" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> Google </span>  <img src="./img/google.png" alt=""></button>
+      </li>    
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Bluepage" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> Bluepage  </span>  <img src="./img/facebook.png" alt=""></button>
+      </li>     
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#OLX" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> OLX  </span>  <img src="./img/olx.png" alt=""></button>
+      </li>   
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> LinkedIn  </span>  <img src="./img/linkedin.png" alt=""></button>
+      </li>   
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Threads" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> Threads  </span>  <img src="./img/threads.png" alt=""></button>
+      </li>   
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#Snapchat" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> Snapchat  </span>  <img src="./img/snapchat.png" alt=""></button>
+      </li>       
+      
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#sms" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> sms  </span>  <img src="./img/SMS.png" alt=""></button>
+      </li>           
+
+      <li onclick="Show_all_sup_catt()" class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#mail" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span> mail  </span>  <img src="./img/mail.png" alt=""></button>
+      </li>              
+</ul>
+
+
+<div class="all_contant">
+
+
+
+
+
+<div class="tab-content  all_Sup_catt" id="pills-tabContent">
+
+<div class="tab-pane fade show active all_Sup_catt_cont" id="facebook" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    
+
+<div class="">
+<div class="nav all_Sup_catt daasdaacxx   flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+<h4>خدمات الصفحات</h4>
+<button onclick="remove_all_sup_catt()"  class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#facebook_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+<button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#facebook_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+<button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#facebook_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+<button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+<h4>خدمات الجروبات</h4>
+<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+<button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+<button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+<h4>خدمات أكونت</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#facebook_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+
+
+
+
+</div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="facebook_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+  استخراج كومنت من بوست
+</div>
+
+<div class="tab-pane fade" id="facebook_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج لايك من بوست 
+</div>
+
+
+<div class="tab-pane fade" id="facebook_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  استخراج معجابين الصفحه
+</div>
+
+
+<div class="tab-pane fade" id="facebook_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  مراسلين الصفحه 
+</div>
+
+<div class="tab-pane fade" id="facebook_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج جروبات K.W 
+</div>
+
+<div class="tab-pane fade" id="facebook_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  أنضمام الي جروبات
+</div>
+
+<div class="tab-pane fade" id="facebook_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج اعضاء جروب
+</div>
+
+<div class="tab-pane fade" id="facebook_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  نشر في جروبات
+</div>
+
+<div class="tab-pane fade" id="facebook_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+   طلبات الصداقه
+</div>
+
+<div class="tab-pane fade" id="facebook_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  قبول طلبات الصداقه
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+<div class="tab-pane fade all_Sup_catt_cont " id="twiter" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+<div class="">
+<div class="nav all_Sup_catt daasdaacxx flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#twiter_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true">  استخراج USER من كلمه   </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#twiter_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">  استخراج USER من لايك  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#twiter_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false"> تستخراج متابعين USER </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> استخراج متابعون USER </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false"> متابعه </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> الغاء متابعه </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false"> ارسال كومنت </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال لايك </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#twiter_9" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال ماسيج </button>
+
+  
+  
+</div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="twiter_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+استخراج USER من كلمه
+</div>
+ 
+<div class="tab-pane fade" id="twiter_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج USER من لايك
+</div>
+
+
+<div class="tab-pane fade" id="twiter_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  تستخراج متابعين USER
+</div>
+  
+  
+<div class="tab-pane fade" id="twiter_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج متابعون USER
+</div>
+
+<div class="tab-pane fade" id="twiter_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  متابعه
+</div>
+
+<div class="tab-pane fade" id="twiter_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+الغاء متابعه
+</div>
+<div class="tab-pane fade" id="twiter_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+ارسال كومنت
+
+</div>
+
+<div class="tab-pane fade" id="twiter_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال لايك
+</div>
+
+<div class="tab-pane fade" id="twiter_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال ماسيج
+</div>
+  
+</div>
+</div>
+  
+  
+</div>
+
+
+<div class="tab-pane fade  " id="youTube" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+<div class="">
+<div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+<h4>استخراج</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#youTube_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج لايك من فيديو </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#youTube_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false"> استخراج كومنت من فيديو </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#youTube_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">  استخراج فديوهات من هاشتاج </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> استخراج قناه من هاشتاج  </button>
+<h4>ارسال</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false"> تشتراك في قناه </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false">  مشاهدات فيديو  </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">   عمل لايك علي فيديو   </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false">  عمل تعليقات فيديو  </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#youTube_9" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">   عمل كومنت علي فيديو   </button>
+
+
+
+</div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="youTube_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+  استخراج لايك من فيديو
+</div>
+
+<div class="tab-pane fade" id="youTube_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج كومنت من فيديو 
+</div>
+
+
+<div class="tab-pane fade" id="youTube_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  استخراج فديوهات من هاشتاج
+</div>
+
+
+<div class="tab-pane fade" id="youTube_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج قناه من هاشتاج 
+</div>
+
+<div class="tab-pane fade" id="youTube_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  اشتراك في قناه 
+</div>
+
+<div class="tab-pane fade" id="youTube_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  مشاهدات فيديو
+</div>
+
+<div class="tab-pane fade" id="youTube_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  عمل لايك علي فيديو
+</div>
+
+<div class="tab-pane fade" id="youTube_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  عمل تعليقات فيديو
+</div>
+
+<div class="tab-pane fade" id="youTube_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  عمل كومنت علي فيديو
+</div>
+
+
+</div>
+</div>
+
+
+</div>
+
+<div class="tab-pane fade  " id="tiktok" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    
+
+<div class="">
+<div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <h4>استخراج</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#tiktok_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true">  استخراج USER من كلمه   </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tiktok_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">  استخراج USER من لايك  </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#tiktok_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false"> تستخراج متابعين USER </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> استخراج متابعون USER </button>
+<h4>ارسال</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false"> متابعه </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> الغاء متابعه </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false"> ارسال كومنت </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال لايك </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tiktok_9" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال ماسيج </button>
+
+</div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="tiktok_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+استخراج USER من كلمه
+</div>
+
+<div class="tab-pane fade" id="tiktok_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج USER من لايك
+</div>
+
+
+<div class="tab-pane fade" id="tiktok_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  تستخراج متابعين USER
+</div>
+  
+  
+<div class="tab-pane fade" id="tiktok_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج متابعون USER
+</div>
+
+<div class="tab-pane fade" id="tiktok_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  متابعه
+</div>
+
+<div class="tab-pane fade" id="tiktok_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+الغاء متابعه
+</div>
+<div class="tab-pane fade" id="tiktok_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+ارسال كومنت
+
+</div>
+
+<div class="tab-pane fade" id="tiktok_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال لايك
+</div>
+
+<div class="tab-pane fade" id="tiktok_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال ماسيج
+</div>
+  
+</div>
+</div>
+  
+  
+</div>
+
+
+<div class="tab-pane fade  " id="insta" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    
+
+<div class="">
+<div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <h4>خدمات الصفحات</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#insta_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#insta_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#insta_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+<h4>خدمات الجروبات</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+<h4>خدمات أكونت</h4>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+<button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#insta_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+
+
+
+
+</div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="insta_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+  استخراج كومنت من بوست
+</div>
+
+<div class="tab-pane fade" id="insta_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج لايك من بوست 
+</div>
+
+
+<div class="tab-pane fade" id="insta_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  استخراج معجابين الصفحه
+</div>
+
+
+<div class="tab-pane fade" id="insta_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  مراسلين الصفحه 
+</div>
+
+<div class="tab-pane fade" id="insta_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج جروبات K.W 
+</div>
+
+<div class="tab-pane fade" id="insta_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  أنضمام الي جروبات
+</div>
+
+<div class="tab-pane fade" id="insta_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج اعضاء جروب
+</div>
+
+<div class="tab-pane fade" id="insta_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  نشر في جروبات
+</div>
+
+<div class="tab-pane fade" id="insta_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+   طلبات الصداقه
+</div>
+
+<div class="tab-pane fade" id="insta_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  قبول طلبات الصداقه
+</div>
+
+        </div>
+        </div>
+
+
+</div>
+
+<div class="tab-pane fade  " id="Telegram" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+  
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#Telegram_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج جروب من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#Telegram_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false"> استخراج قناه من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#Telegram_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">  استخراج اعضاء من جروب  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Telegram_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> اضافه اعضاء الي جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Telegram_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  فلتره الارقام  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Telegram_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> ارقام راسلتني </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Telegram_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  جروبات  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Telegram_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false">  ارقام  </button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="Telegram_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="Telegram_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Telegram_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Telegram_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="Telegram_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="Telegram_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="Telegram_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="Telegram_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+
+  
+          </div>
+          </div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="WhatsApp" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+  
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج جروب من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false"> استخراج قناه من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">  استخراج اعضاء من جروب  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> اضافه اعضاء الي جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  فلتره الارقام  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> ارقام راسلتني </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  جروبات  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#WhatsApp_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false">  ارقام  </button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="WhatsApp_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="WhatsApp_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="WhatsApp_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="WhatsApp_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="WhatsApp_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="WhatsApp_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="WhatsApp_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="WhatsApp_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+
+  
+          </div>
+          </div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="Google" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#facebook_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true">استخراج من جوجل ماب</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#facebook_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+
+  
+
+  
+  </div>
+  
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="Google_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+  استخراج من جوجل ماب
+</div>
+  
+  <div class="tab-pane fade" id="Google_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج من اي موقع  
+  </div>
+  
+  
+
+
+  </div>
+  </div>
+
+  
+</div>
+
+
+<div class="tab-pane fade  " id="Bluepage" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>خدمات الصفحات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+  <h4>خدمات الجروبات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+  <h4>خدمات أكونت</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Bluepage_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="Bluepage_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Bluepage_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Bluepage_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+  <div class="tab-pane fade" id="Bluepage_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+  </div>
+  
+          </div>
+          </div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="OLX" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>خدمات الصفحات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#OLX_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#OLX_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#OLX_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+  <h4>خدمات الجروبات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+  <h4>خدمات أكونت</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#OLX_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="OLX_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="OLX_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="OLX_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+  <div class="tab-pane fade" id="OLX_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+  </div>
+  
+          </div>
+          </div>
+  
+  
+</div>
+
+
+<div class="tab-pane fade  " id="LinkedIn" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>خدمات الصفحات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+  <h4>خدمات الجروبات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+  <h4>خدمات أكونت</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#LinkedIn_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="LinkedIn_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="LinkedIn_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="LinkedIn_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+  <div class="tab-pane fade" id="LinkedIn_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+  </div>
+  
+          </div>
+          </div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="Threads" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#Threads_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true">  استخراج USER من كلمه   </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#Threads_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">  استخراج USER من لايك  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#Threads_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false"> تستخراج متابعين USER </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> استخراج متابعون USER </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false"> متابعه </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> الغاء متابعه </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false"> ارسال كومنت </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال لايك </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Threads_9" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> ارسال ماسيج </button>
+
+  
+  
+  </div>
+
+<div class="tab-content  allll" id="v-pills-tabContent">
+<div class="tab-pane fade show active" id="Threads_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+استخراج USER من كلمه
+</div>
+
+<div class="tab-pane fade" id="Threads_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+  استخراج USER من لايك
+</div>
+
+
+<div class="tab-pane fade" id="Threads_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+  تستخراج متابعين USER
+</div>
+  
+  
+<div class="tab-pane fade" id="Threads_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  استخراج متابعون USER
+</div>
+
+<div class="tab-pane fade" id="Threads_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  متابعه
+</div>
+
+<div class="tab-pane fade" id="Threads_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+الغاء متابعه
+</div>
+<div class="tab-pane fade" id="Threads_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+ارسال كومنت
+
+</div>
+
+<div class="tab-pane fade" id="Threads_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال لايك
+</div>
+
+<div class="tab-pane fade" id="Threads_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+  ارسال ماسيج
+</div>
+  
+</div>
+</div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="Snapchat" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>خدمات الصفحات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج كومنت من بوست </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false">استخراج لايك من بوست</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">استخراج معجابين الصفحه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> مراسلين الصفحه </button>
+  <h4>خدمات الجروبات</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  استخراج جروبات K.W </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> أنضمام الي جروبات </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  استخراج اعضاء جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false"> نشر في جروبات </button>
+  <h4>خدمات أكونت</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_9" type="button" role="tab" aria-controls="facebook_9" aria-selected="false"> طلبات الصداقه</button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#Snapchat_10" type="button" role="tab" aria-controls="facebook_10" aria-selected="false">قبول طلبات الصداقه</button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="Snapchat_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Snapchat_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="Snapchat_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="Snapchat_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+<div class="tab-pane fade" id="Snapchat_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+</div>
+  
+  </div>
+  </div>
+  
+  
+</div>
+      
+<div class="tab-pane fade  " id="sms" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+  
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#sms_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج جروب من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#sms_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false"> استخراج قناه من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#sms_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">  استخراج اعضاء من جروب  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#sms_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> اضافه اعضاء الي جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#sms_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  فلتره الارقام  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#sms_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> ارقام راسلتني </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()"  class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#sms_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  جروبات  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#sms_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false">  ارقام  </button>
+
+
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="sms_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="sms_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="sms_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="sms_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="sms_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="sms_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="sms_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="sms_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="sms_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+  <div class="tab-pane fade" id="sms_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+  </div>
+  
+</div>
+</div>
+  
+  
+</div>
+
+<div class="tab-pane fade  " id="mail" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+  
+
+  <div class="">
+  <div class="nav all_Sup_catt flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <h4>استخراج</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#mail_1" type="button" role="tab" aria-controls="facebook_1" aria-selected="true"> استخراج جروب من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#mail_2" type="button" role="tab" aria-controls="facebook_2" aria-selected="false"> استخراج قناه من كلمه داله </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#mail_3" type="button" role="tab" aria-controls="facebook_3" aria-selected="false">  استخراج اعضاء من جروب  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#mail_4" type="button" role="tab" aria-controls="facebook_4" aria-selected="false"> اضافه اعضاء الي جروب </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#mail_5" type="button" role="tab" aria-controls="facebook_5" aria-selected="false">  فلتره الارقام  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#mail_6" type="button" role="tab" aria-controls="facebook_6" aria-selected="false"> ارقام راسلتني </button>
+  <h4>ارسال</h4>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#mail_7" type="button" role="tab" aria-controls="facebook_7" aria-selected="false">  جروبات  </button>
+  <button onclick="remove_all_sup_catt()" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#mail_8" type="button" role="tab" aria-controls="facebook_8" aria-selected="false">  ارقام  </button>
+  
+  
+  
+  
+  </div>
+  
+  <div class="tab-content  allll" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="mail_1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+    استخراج كومنت من بوست
+  </div>
+  
+  <div class="tab-pane fade" id="mail_2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+    استخراج لايك من بوست 
+  </div>
+  
+  
+  <div class="tab-pane fade" id="mail_3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+    استخراج معجابين الصفحه
+  </div>
+  
+  
+  <div class="tab-pane fade" id="mail_4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    مراسلين الصفحه 
+  </div>
+  
+  <div class="tab-pane fade" id="mail_5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج جروبات K.W 
+  </div>
+  
+  <div class="tab-pane fade" id="mail_6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    أنضمام الي جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="mail_7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    استخراج اعضاء جروب
+  </div>
+  
+  <div class="tab-pane fade" id="mail_8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    نشر في جروبات
+  </div>
+  
+  <div class="tab-pane fade" id="mail_9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+      طلبات الصداقه
+  </div>
+  
+  <div class="tab-pane fade" id="mail_10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+    قبول طلبات الصداقه
+  </div>
+  
+</div>
+</div>
+
+  
+</div>
+
+
+
+
+</div>
+    
+    
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="./js/2.JS"></script>
+
+
+<!--  Chart js الباقي -->
+<script src="./vendor/jquery/dist/jquery.min.js"></script>
+<script src="./assets/js/main.js"></script>
+
+<!-- سكريبت الرئيسي -->
+
+<script src="./js/all.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
+
+<script src="./js/datatables-simple-demo.js"></script>
+
+
+
+
+
+
+</body>
+</html>
